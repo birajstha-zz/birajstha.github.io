@@ -17,38 +17,47 @@ body {
 	color: #343434;
 	margin: 0;
 	padding: 0;
-	font-family: 'Montserrat', sans-serif;
-	font-size: 15px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 17px;
 	line-height: 1.5;
 }
 
 .content-wrap {
-	width: 900px;
+	width: 80%;
 	margin: 0 auto;
 	padding: 60px 0;
 }
 
 
 h1 {
-	font-size: 100px;
+	font-size: 90px;
 }
 
 h2 {
-	font-size: 45px;
+	font-size: 40px;
 }
 
 h1, h2 {
-	font-family: 'Caveat', cursive;
+	font-family: 'Orbitron', sans-serif;
 	font-weight: 400;
 }
 
+.circular--square {
+	border-radius: 50%;
+	float: left;
+	margin: 20px;
+}
+
+.clear {
+	clear: both;
+}
 
 
 /* Profile
  * * ----------------------------------------------------------------------------------*/
 header{
-       background: #2F3061;
-       color: #F7FFF7;
+       background: black;
+       color:#00cc00;
 }      
 
 /* Summary
@@ -57,34 +66,38 @@ header{
 /* Skills
  * * ----------------------------------------------------------------------------------*/
 .skills {
-	background: #A1C6D7;
+	background: Black;
+	color: Red;
 }
 
 /* Experience
  * * ----------------------------------------------------------------------------------*/
 .Experience {
-	background: #FFE66D;
+	background: Black;
+	color: yellow;
 }
 
 
 /* Education
  * * ----------------------------------------------------------------------------------*/
 .Education {
-	background: #A1C6D7; 
+	background: Black;
+       color: Blue;	
 }
 
 
 /* Interests
  * * ----------------------------------------------------------------------------------*/
 .Interests {
-	background: #FFE66D;
+	background: Black;
+	color: pink;
 }
 
 /* Footer
  * ------------------------------------------------------------------------------------*/
 footer {
-       background: #2F3061;
-       color: #F7FFF7;
+       background: Black;
+       color: white;
 }
 
 
