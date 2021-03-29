@@ -1,0 +1,107 @@
+/*
+ * Color palette
+ * https://coolors.co/
+ * #F7FFF7 - almost white
+ * #343434 - dark gray -almost black
+ * #2F3061 - blue dark
+ * #FFE66D - yellow
+ * #A1C6D7 - blue light
+ *
+ * */
+
+
+/* Global Styles 
+ * ----------------------------------------------------------------------------------*/
+
+body {
+	color: #343434;
+	margin: 0;
+	padding: 0;
+	font-family: 'Helvetica', sans-serif;
+	font-size: 15px;
+	line-height: 1.5;
+}
+
+.content-wrap {
+	width: 900px;
+	margin: 0 auto;
+	padding: 60px 0;
+}
+
+
+h1 {
+	font-size: 100px;
+}
+
+h2 {
+	font-size: 45px;
+}
+
+h1, h2 {
+	font-family: 'Verdana', sans-serif;
+	font-weight: 400;
+}
+
+
+
+/* Profile
+ * * ----------------------------------------------------------------------------------*/
+header{
+       background: #2F3061;
+       color: #F7FFF7;
+}      
+
+/* Summary
+ * -----------------------------------------------------------------------------------*/
+
+/* Skills
+ * * ----------------------------------------------------------------------------------*/
+.skills {
+	background: #A1C6D7;
+}
+
+/* Experience
+ * * ----------------------------------------------------------------------------------*/
+.Experience {
+	background: #FFE66D;
+}
+
+
+/* Education
+ * * ----------------------------------------------------------------------------------*/
+.Education {
+	background: #A1C6D7; 
+}
+
+
+/* Interests
+ * * ----------------------------------------------------------------------------------*/
+.Interests {
+	background: #FFE66D;
+}
+
+/* Footer
+ * ------------------------------------------------------------------------------------*/
+footer {
+       background: #2F3061;
+       color: #F7FFF7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
