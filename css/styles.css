@@ -12,6 +12,13 @@
 
 /* Global Styles 
  * ----------------------------------------------------------------------------------*/
+html {
+	box-sizing: border-box;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
 
 body {
 	color: black;
@@ -36,7 +43,8 @@ h1 {
 
 h2 {
 	font-size: 40px;
-	color: Blue;
+	color: Black;
+	text-decoration: underline red;
 }
 
 h1, h2 {
@@ -45,9 +53,11 @@ h1, h2 {
 }
 
 .circular--square {
+	object-fit: cover;
+	max-height: 400px;
 	border-radius: 50%;
 	float: left;
-	margin: 20px;
+
 }
 
 .name {
@@ -60,6 +70,7 @@ h1, h2 {
 
 .details {
 	color: black;
+	text-decoration: none;
 }
 
 dt {
@@ -70,10 +81,18 @@ dt {
 /* Profile
  * * ----------------------------------------------------------------------------------*/
 header{
+	margin: 0;
+        padding: 0;
 	background: black;
 	color: cyan;
 	padding: 10px 0;
 }      
+
+.header {
+	padding: 10px;
+	width: 80%;
+	margin: 0 auto;
+}
 
 /* Summary
  * -----------------------------------------------------------------------------------*/
