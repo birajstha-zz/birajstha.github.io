@@ -53,15 +53,14 @@ h1, h2 {
 }
 
 .circular--square {
-	object-fit: cover;
-	max-height: 400px;
+	display: block;
 	border-radius: 50%;
-	float: left;
-
+	margin: 0 auto;
 }
 
 .name {
 	color: Red;
+	text-align: center;
 }
 
 .clear {
