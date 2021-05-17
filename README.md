@@ -1,5 +1,7 @@
 # birajstha.github.io
 
-This project is aimed to showcase my skills and achievements.
+Most of my skills are into Hardware engineering, Data science and signal processing. 
 
-This is an easy way for me to publish my portfolio into web. 
+Please dont judge me looking at my basic web development skills.
+
+Thanks !! :)
